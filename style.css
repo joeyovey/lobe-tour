@@ -50,7 +50,58 @@
 }
 
 /* Container */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main-container .hero h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+h1 span{
+    color: #04ddb2;
+}
+.hero p{
+    font-size: 32px;
+    line-height: 48px;
+    color: #767676;
+}
+.video img{
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+}
+.video img:hover{
+    background-color: #767676;
+}
+
+/* Train style */
+.train{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+
+}
+.train button{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #04ddb2;
+    border: none;
+    cursor: pointer;
+    line-height: 50px;
+}
+/* Media query section */
 
 
 
-
+@media only screen and (max-width: 425px) {
+    .hero {
+        margin: 50px 0px 0px;
+    }
+}

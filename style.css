@@ -70,20 +70,19 @@ h1 span{
     color: #767676;
 }
 .video img{
+    /* padding-top: 50px; */
     width: 70%;
     height: 70%;
     border-radius: 30px;
 }
-.video img:hover{
-    background-color: #767676;
-}
+
 
 /* Train style */
 .train{
+    padding-top: 50px;
     font-size: 30px;
     font-weight: 700;
-    line-height: 90px;
-
+    line-height: 80px;
 }
 .train button{
     font-size: 24px;
@@ -95,10 +94,78 @@ h1 span{
     border: none;
     cursor: pointer;
     line-height: 50px;
+    margin-bottom: 30px;
 }
+
+
+/* Footer styling */
+.footer {
+    background-color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-items h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.footer-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-items ul li {
+    margin-bottom: 5px;
+}
+
+.footer-items ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.footer-items ul li a:hover {
+    color: black;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+    /* margin-top: 10px; */
+}
+
+.footer-socials i {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #04ddb2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.footer-logo{
+    width: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+
 /* Media query section */
-
-
 
 @media only screen and (max-width: 425px) {
     .hero {
